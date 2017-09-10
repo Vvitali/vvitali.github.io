@@ -7,12 +7,17 @@ import {Photo} from "./photo";
 class App extends Component {
 	constructor(props){
 	super(props);
-	this.state = {oldtext: "Hello world!", body: "Nothing" };
+	this.state = {oldtext: "Hello world!", body: <div className="BioStyle">
+  		<img src="/images/ava.jpg"/>
+  		<h1>Hello!</h1>
+  		<p >My name is Vitaliy Vorobyev, and I'm Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
+  		some of my projects, and just some interesting things</p>
+  		</div> };
 	this.changeBody = this.changeBody.bind(this);
+
 	}
 
 	changeBody(newBody){
-
 		var Instagram = <div className="PhotoArray"><Photo></Photo></div>
   		var Biography = 
   		<div className="BioStyle">
@@ -47,7 +52,6 @@ class App extends Component {
 
 		switch(newBody){
 			case "Biography":
-			console.log("changeBody works "+ newBody)
 			this.setState({body: Biography });
 			break;
 			case "Instagram":
@@ -59,15 +63,21 @@ class App extends Component {
 			default: 
 			break;
 		}
+
 	}
 
   render() {
-    return (	 
-	  <div className="App">
+    return (	
+
+	  <div className="App" >
+	  <script>
+		
+		</script>
         <div className="Header"></div>
 		<div className="Menu"><Menu onClick={this.changeBody}></Menu></div>
-		<div  >
+		<div>
 		{this.state.body}
+
 		</div>		
 		</div>	 
     );

@@ -16,7 +16,8 @@ export class Menu extends React.Component{
 
   	
 	return (
-	<div className="Menu">	 
+	<div className="Menu"  >	
+	
 	<div id="firsts">
 	<ul>
 	<li><a href = "" onClick={this.clickHandler}>Home</a></li>
