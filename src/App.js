@@ -3,6 +3,7 @@ import './App.css';
 import './profile.css';
 import { Menu } from './menu';
 import {Photo} from "./photo";
+import {Footer} from "./footer";
 
 class App extends Component {
 	constructor(props){
@@ -10,12 +11,19 @@ class App extends Component {
 	this.state = {oldtext: "Hello world!", body: <div className="BioStyle">
   		<img src="/images/ava.jpg"/>
   		<h1>Hello!</h1>
-  		<p >My name is Vitaliy Vorobyev, and I'm Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
+  		<p >My name is Vitaliy Vorobyev, and I'm a Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
   		some of my projects, and just some interesting things</p>
   		</div> };
 	this.changeBody = this.changeBody.bind(this);
 
 	}
+
+	instaComponent () {
+        const script = document.createElement("script");
+        script.src = "instafeed.min.js";
+        script.async = true;
+        document.body.appendChild(script);
+    }
 
 	changeBody(newBody){
 		var Instagram = <div className="PhotoArray"><Photo></Photo></div>
@@ -67,18 +75,15 @@ class App extends Component {
 	}
 
   render() {
-    return (	
-
+    return (
 	  <div className="App" >
-	  <script>
-		
-		</script>
         <div className="Header"></div>
 		<div className="Menu"><Menu onClick={this.changeBody}></Menu></div>
 		<div>
 		{this.state.body}
-
-		</div>		
+		</div>	
+		<div className="footer"><Footer link="909a1c" vlink="#cecece"  ></Footer>	</div>
+		
 		</div>	 
     );
   }

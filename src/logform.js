@@ -11,8 +11,7 @@ export class Lognform extends React.Component{
         <label>Email</label>
         <input type="email"  />
         <button onClick={this.saveAndContinue}>Save and Continue</button>		
-		</div>
-		
+		</div>		
 		return (
 		<div>
 		{login2form}
