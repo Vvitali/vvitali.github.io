@@ -7,8 +7,8 @@ A{
 }
 
 a:visited {
-    color: #cecece;
-  }
+  color: #cecece;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -34,7 +34,7 @@ a:visited {
 .Menu a{
 	font-size: 42px;
 	color: black;
-	}
+}
 
 .Menu a:hover{
 	color: GrayText;
@@ -47,7 +47,7 @@ a:visited {
   display: inline-block;
   padding: 10px;  
   font-family: "Source Sans Pro"; 
-   
+
 }
 
 .links img{
@@ -57,15 +57,15 @@ a:visited {
 .links a{
   color: black;
 }
- 
+
 .PhotoArray img{   
   margin-bottom: -4px; 
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
   -webkit-transition: all 1s ease-out;
 }
- 
- .PhotoArray img:hover {
+
+.PhotoArray img:hover {
   overflow:visible; 
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -87,16 +87,4 @@ a:visited {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
-
-.footer{
-  font-family: 'Work Sans', sans-serif;
-  background-color: #252324;
-  color: #909a9b;
-  opacity: 0.5;
-  min-width: 100%;
-  min-height: 2%;
-  max-height: 5%;
-  bottom: 0%;
-  position: fixed;
 }

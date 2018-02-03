@@ -1,39 +1,39 @@
 import React, { Component } from 'react';
 import './App.css';
-import './profile.css';
 import { Menu } from './menu';
 import {Photo} from "./photo";
-import {Footer} from "./footer";
+import {Footer} from "./Components/Footer/Footer";
+import {NavBar} from "./Components/NavBar/NavBar";
 
 class App extends Component {
 	constructor(props){
-	super(props);
-	this.state = {oldtext: "Hello world!", body: <div className="BioStyle">
-  		<img src="/images/ava.jpg"/>
-  		<h1>Hello!</h1>
-  		<p >My name is Vitaliy Vorobyev, and I'm a Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
-  		some of my projects, and just some interesting things</p>
-  		</div> };
-	this.changeBody = this.changeBody.bind(this);
+		super(props);
+		this.state = {oldtext: "Hello world!", body: <div className="BioStyle">
+		<img src="/images/ava.jpg"/>
+		<h1>Hello!</h1>
+		<p >My name is Vitaliy Vorobyev, and I'm a Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
+		some of my projects, and just some interesting things</p>
+		</div> };
+		this.changeBody = this.changeBody.bind(this);
 
 	}
 
 	instaComponent () {
-        const script = document.createElement("script");
-        script.src = "instafeed.min.js";
-        script.async = true;
-        document.body.appendChild(script);
-    }
+		const script = document.createElement("script");
+		script.src = "instafeed.min.js";
+		script.async = true;
+		document.body.appendChild(script);
+	}
 
 	changeBody(newBody){
 		var Instagram = <div className="PhotoArray"><Photo></Photo></div>
-  		var Biography = 
-  		<div className="BioStyle">
-  		<img src="/images/ava.jpg"/>
-  		<h1>Hello!</h1>
-  		<p >My name is Vitaliy Vorobyev, and I'm Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
-  		some of my projects, and just some interesting things</p>
-  		</div>
+		var Biography = 
+		<div className="BioStyle">
+		<img src="/images/ava.jpg"/>
+		<h1>Hello!</h1>
+		<p >My name is Vitaliy Vorobyev, and I'm Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
+		some of my projects, and just some interesting things</p>
+		</div>
 
 		var Con = <div className="links">
 		<div className="links" id="github">
@@ -74,19 +74,19 @@ class App extends Component {
 
 	}
 
-  render() {
-    return (
-	  <div className="App" >
-        <div className="Header"></div>
-		<div className="Menu"><Menu onClick={this.changeBody}></Menu></div>
-		<div>
-		{this.state.body}
-		</div>	
-		<div className="footer"><Footer link="909a1c" vlink="#cecece"  ></Footer>	</div>
-		
-		</div>	 
-    );
-  }
+	render() {
+		return (
+			<div className="App" >
+			<NavBar></NavBar>
+			<div className="Menu"><Menu onClick={this.changeBody}></Menu></div>
+			<div>
+			{this.state.body}
+			</div>	
+			<div className="footer"><Footer link="909a1c" vlink="#cecece"  ></Footer>	</div>
+
+			</div>	 
+			);
+	}
 }
 
 export default App;
