@@ -34,6 +34,7 @@ return (
 	<NavBar></NavBar>
 	<main>
 		<div className="container">
+			<div className="row"></div>
 			<div className="row">
 				<div className="col s3"></div>
 				<div className="col s6">
