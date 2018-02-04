@@ -5,18 +5,22 @@ import {Photo} from "./photo";
 import {Footer} from "./Components/Footer/Footer";
 import {NavBar} from "./Components/NavBar/NavBar";
 
+//routing
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Loadable from 'react-loadable';
+
+const Loading = () => <div>Loading...</div>;
+
 class App extends Component {
 	constructor(props){
 		super(props);
-		this.state = {oldtext: "Hello world!", body: <div className="BioStyle">
-		<img src="/images/ava.jpg"/>
-		<h1>Hello!</h1>
-		<p >My name is Vitaliy Vorobyev, and I'm a Full-stack web-developer. Now, you can see my home-page where you can find my contacts, 
-		some of my projects, and just some interesting things</p>
-		</div> };
 		this.changeBody = this.changeBody.bind(this);
-
 	}
+
+	Home = Loadable({
+		loader: () => import('./routes/Home'),
+		loading: Loading
+	});
 
 	instaComponent () {
 		const script = document.createElement("script");
@@ -55,7 +59,7 @@ class App extends Component {
 		<img src="http://izabelmar.com/wp-content/uploads/resume-logo.jpg" style={{ width:100}}/>
 		<a href="./Vitaliy Vorobyev SD resume.rtf"><p>Resume.rtf</p></a>
 		</div>
-		
+
 		</div>
 
 		switch(newBody){
@@ -71,19 +75,26 @@ class App extends Component {
 			default: 
 			break;
 		}
-
 	}
+
+
 
 	render() {
 		return (
-			<div className="App" >
+			<div className="App">
 			<NavBar></NavBar>
-			<div className="Menu"><Menu onClick={this.changeBody}></Menu></div>
-			<div>
-			{this.state.body}
-			</div>	
-			<div className="footer"><Footer link="909a1c" vlink="#cecece"  ></Footer>	</div>
-
+			<div className="Menu">
+			<Menu onClick={this.changeBody}></Menu>
+			</div>
+			<Router>
+			<Switch>
+			<Route exact path="/" component={this.Home}/>
+			<Route path="/about" component={this.Home}/>
+			</Switch>
+			</Router>
+			<div className="footer">
+			<Footer link="909a1c" vlink="#cecece"></Footer>
+			</div>
 			</div>	 
 			);
 	}

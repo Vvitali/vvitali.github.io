@@ -1,11 +1,9 @@
-import React from "react";
+import React, { Component } from 'react';
 
-export class NavBar extends React.Component{
+export class NavBar extends Component{
 	constructor(props){
 		super(props);
-
 	};
-
 
 	render(){
 		return(
