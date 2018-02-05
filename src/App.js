@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Photo} from "./photo";
-import Footer from "./Components/Footer/Footer";
 import {NavBar} from "./Components/NavBar/NavBar";
+import Footer from "./Components/Footer/Footer";
 
 //routing
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
