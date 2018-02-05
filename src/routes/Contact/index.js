@@ -32,7 +32,7 @@ const Contact =()=>{
 		<img src="/images/gdrive.png" style={{ width:100}}/>
 		<p>Watch it on Google Docs resume</p>
 		</a>
-		<a href="./Vitaliy Vorobyev web-developer.pdf" target="_blank">	
+		<a href="https://docs.google.com/document/d/1SHh8_B4WcXeDzxFUKNbYgjo2rnQRN6oo4S6AtJd_vdk/export?format=pdf" target="_blank">	
 		<p>Vitaliy Vorobyev Resume.pdf - Download<i className="material-icons">file_download</i></p>
 		</a>
 
