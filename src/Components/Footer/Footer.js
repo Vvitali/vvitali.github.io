@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = ()=>{
 	return (
-		<footer className="page-footer">
+		<footer className="page-footer red">
 		<div className="footer-copyright">
 		<div className="container">
 		<p>Copyright by <a  href="https://www.linkedin.com/in/vitaliy-vorobyev" target="_blank">Vvitali</a> @ 2017</p>

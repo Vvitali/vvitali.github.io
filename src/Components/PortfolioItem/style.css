@@ -4,3 +4,9 @@ img{
 p{
 	font-size: 1em;
 }
+.ProjectItem{
+	height: 75%;
+}
+card-content{
+	height: 70%;
+}
