@@ -5,8 +5,7 @@ export class NavBar extends Component{
 	};
 
 	render(){
-		return(
-			<div>
+		return( 
 			<nav>
 			<div className="nav-wrapper red">
 			<a href="#" className="brand-logo center">Vitaliy Vorobyev</a>
@@ -16,14 +15,7 @@ export class NavBar extends Component{
 			<li><a href="/contact">Contact me</a></li>
 			</ul>
 			</div>
-			</nav>
-			<ul className="side-nav" id="mobile-demo">
-			<li><a href="sass.html">Sass</a></li>
-			<li><a href="badges.html">Components</a></li>
-			<li><a href="collapsible.html">Javascript</a></li>
-			<li><a href="mobile.html">Mobile</a></li>
-			</ul>
-			</div>
+			</nav> 
 			)
 	};
 
