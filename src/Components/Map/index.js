@@ -1,5 +1,4 @@
 import React from 'react';
-import { GoogleMap, Marker } from "react-google-maps";
 
 function initMap() {
 	var uluru = { lat: -25.363, lng: 131.044 };
