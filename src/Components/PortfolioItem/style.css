@@ -4,9 +4,12 @@ img{
 p{
 	font-size: 1em;
 }
+A{
+	color: black;
+}
 .ProjectItem{
 	height: 75%;
 }
-card-content{
-	height: 70%;
+.card-content{
+	height: 140px;
 }
