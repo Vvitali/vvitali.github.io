@@ -3,6 +3,7 @@ import './App.css';
 import {NavBar} from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 
+
 //routing
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
