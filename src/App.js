@@ -11,9 +11,6 @@ import Loadable from 'react-loadable';
 const Loading = () => <div>Loading...</div>;
 
 class App extends Component {
-	constructor(props){
-		super(props);
-	}
 
 	Home = Loadable({
 		loader: () => import('./routes/Home'),
