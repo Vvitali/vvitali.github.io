@@ -35,8 +35,8 @@ class App extends Component {
 			<div className="container">
 			<div className="row"></div>
 			<div className="row">
-			<div className="col m1"></div>
-			<div className="col s12 m10">
+			<div className="col-md-1"></div>
+			<div className="col-sm-12 col-md-10">
 			<Router>
 			<Switch>
 			<Route exact path="/" component={this.Home}/>
@@ -45,7 +45,7 @@ class App extends Component {
 			</Switch>
 			</Router>
 			</div>
-			<div className="col m1"></div>
+			<div className="col-md-1"></div>
 			</div>
 			</div>
 

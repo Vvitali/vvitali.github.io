@@ -28,9 +28,9 @@ export class NavBar extends Component{
 
 			</form>
 			<ul className="nav navbar-nav navbar-left">
-			<li><a href="./index.html">About</a></li>
-			<li><a href="./portfolio.html">Portfolio</a></li>
-			<li><a href="./contacts.html">Contact</a></li>
+			<li><a href="./">Home</a></li>
+			<li><a href="./portfolio">Portfolio</a></li>
+			<li><a href="./contact">Contact</a></li>
 			</ul>
 			</div> 
 			</div>
