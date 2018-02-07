@@ -1,15 +1,6 @@
-img{
-	height: 15%;
-}
-p{
-	font-size: 1em;
-}
-A{
-	color: black;
-}
-.ProjectItem{
-	height: 75%;
-}
-.card-content{
-	height: 140px;
-}
+ .btn{
+ 	background-color: #D3D3D3;
+ 	color: black;
+ 	border: none;
+
+ }
