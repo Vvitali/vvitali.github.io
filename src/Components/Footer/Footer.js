@@ -2,13 +2,18 @@ import React from 'react';
 
 const Footer = ()=>{
 	return (
-		<footer className="page-footer red">
-		<div className="footer-copyright">
-		<div className="container">
-		<p>Copyright by <a  href="https://www.linkedin.com/in/vitaliy-vorobyev" target="_blank">Vvitali</a> @ 2017</p>
+		<nav className="navbar navbar-inverse navbar-fixed-bottom footer">
+		<div className="container-fluid">
+		<div className="navbar-header">
+		<a className="navbar-brand " href="#">Vitaliy Vorobyev</a>
+		<ul className="nav navbar-nav">
+		<li>
+		<a href="#anchor" type="text/css">Go to the top</a>
+		</li>
+		</ul>
 		</div>
 		</div>
-		</footer>
+		</nav>
 		)	
 }
 export default Footer;

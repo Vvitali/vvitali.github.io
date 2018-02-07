@@ -6,16 +6,35 @@ export class NavBar extends Component{
 
 	render(){
 		return( 
-			<nav>
-			<div className="nav-wrapper red">
-			<a href="#" className="brand-logo center">Vitaliy Vorobyev</a>
-			<ul id="nav-mobile" className="left hide-on-med-and-down">
-			<li><a href="/">Home</a></li>
-			<li><a href="/portfolio">Portfolio</a></li>
-			<li><a href="/contact">Contact me</a></li>
-			</ul>
+			
+			<nav className="navbar navbar-default">
+			<a name="anchor"></a>
+			<div className="container-fluid"> 
+			<div className="navbar-header">
+			<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span className="sr-only">Toggle navigation</span>
+			<span className="icon-bar"></span>
+			<span name="icon-bar"></span>
+			<span className="icon-bar"></span>
+			</button>
+			<a className="navbar-brand center" href="#">Vorobyev Vitaliy</a>
 			</div>
-			</nav> 
+
+
+			<div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul className="nav navbar-nav">
+			</ul>
+			<form className="navbar-form navbar-left">
+
+			</form>
+			<ul className="nav navbar-nav navbar-left">
+			<li><a href="./index.html">About</a></li>
+			<li><a href="./portfolio.html">Portfolio</a></li>
+			<li><a href="./contacts.html">Contact</a></li>
+			</ul>
+			</div> 
+			</div>
+			</nav>
 			)
 	};
 
