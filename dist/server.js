@@ -4,17 +4,17 @@ var _express = require("express");
 
 var _express2 = _interopRequireDefault(_express);
 
-var _react = require("react");
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = require("react-dom");
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
 var _htmlRoutes = require("./controllers/htmlRoutes");
 
 var _htmlRoutes2 = _interopRequireDefault(_htmlRoutes);
+
+var _bodyParser = require("body-parser");
+
+var _bodyParser2 = _interopRequireDefault(_bodyParser);
+
+var _blog = require("./model/blog");
+
+var _blog2 = _interopRequireDefault(_blog);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24,10 +24,9 @@ console.log("Server-file load: ok!");
 var app = (0, _express2.default)();
 var PORT = 8080;
 app.all("*", _htmlRoutes2.default);
-app.get("/", function (req, res) {
-	console.log("Request to //");
-	res.send("YO!");
-});
+app.use(_bodyParser2.default.urlencoded({ extended: true }));
+app.use(_bodyParser2.default.json());
+
 app.listen(PORT, function () {
 	console.log("Server started at port: " + PORT);
 });

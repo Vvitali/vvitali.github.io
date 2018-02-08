@@ -1,6 +1,8 @@
 const DEBUG = true;
 import express from "express";
 import htmlRoutes from "./controllers/htmlRoutes";
+import bodyParser from "body-parser";
+import blog from "./model/blog"
 console.log("Server-file load: ok!");
 const app = express();
 const PORT = 8080;
