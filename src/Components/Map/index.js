@@ -31,7 +31,9 @@ const places = [
 
 const componentStyle={ 
 	width: '100%', 
-	height: '450px'
+	height: '450px',
+	marging: "20px",
+	position: "relative"
 };
 
 class MapComponent extends React.Component{
@@ -48,7 +50,6 @@ class MapComponent extends React.Component{
 		for(let place of places){
 			renderedPlaces.push(<MapObject key={place.name} name={place.name} lat={ place.position.lat } lng={place.position.lng } pic={ place.pic} text={ place.title }/>); 
 		};
-		console.log("start");
 		return (
 			<GoogleMapReact style={componentStyle} defaultCenter={ this.props.center } defaultZoom={ this.props.zoom }>
 			{

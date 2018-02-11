@@ -1,15 +1,10 @@
 import React from "react";
-const showText = ()=>{
-
-}
-
 class mObject extends React.Component{
-
 	constructor(props){
 		super(props);
-		console.log(this.props.text)
 		this.state = {displayed: false};
 	}
+
 	onMouseEnterHandler = ()=>{
 		this.setState({
 			displayed: true
