@@ -19,6 +19,9 @@ const AboutMe = ()=>{
 		<MapComponent/>
 
 		<span><em>1999: In my childhood I had a lot of toys, and electric devices (like cassette player), one day I've found a screwdriver <img className="emoji" src="https://cdn.emojidex.com/emoji/seal/%28flat_head%29screw_driver.png" alt=""/>, and after couple hours my parents found me on the floor surrounded by numbers of details</em></span>
+		<br/>
+		<br/>
+		<em>"to be continued"</em>
 
 		</div>
 		);
