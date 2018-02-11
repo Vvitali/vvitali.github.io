@@ -1,6 +1,7 @@
 {
   "name": "vitaliyswebsite",
   "version": "0.1.0",
+  "homepage": "https://vvitali.github.io/Personal-web-site/",
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -25,10 +26,12 @@
     "server": "npm run serverBuild && node dist/server.js",
     "serverBuild": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./src,./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "gh-pages": "^1.1.0"
   }
 }

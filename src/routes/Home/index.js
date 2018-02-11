@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MapItem from "../../Components/Map/index.js";
 class Home extends Component{
 	render(){
 		return(
