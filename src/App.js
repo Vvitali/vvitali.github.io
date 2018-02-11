@@ -40,6 +40,8 @@ class App extends Component {
 			<Route exact path="/" component={this.Home}/>
 			<Route path="/contact" component={this.Contact}/>
 			<Route path="/portfolio" component={this.Portfolio}/>
+			<Route path="/aboutme" component={this.Portfolio}/>
+
 			</Switch>
 			</Router>
 			</div>

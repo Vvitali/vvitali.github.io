@@ -1,15 +1,8 @@
 import React from 'react';
 import * as d3 from "d3"; 
+import GoogleMapReact from 'google-map-react';
+
 function initMap() {
-	let width = 1200,
-	height = 720;
-	d3.geoMercator()
-	.scale(8000)
-	.precision(.1)
-	.center([13.320255,52.52831499])
-	.translate([width / 2, height / 2])
-
-
 	var uluru = { lat: -25.363, lng: 131.044 };
 	var uka = { lat: 49.976515, lng: 82.571675 };
 	var map = {

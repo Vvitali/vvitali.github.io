@@ -13,8 +13,7 @@ export class NavBar extends Component{
 			</button>
 			<a className="navbar-brand center" href="/">Vorobyev Vitaliy</a>
 			</div>
-
-
+			
 			<div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul className="nav navbar-nav">
 			</ul>
@@ -23,6 +22,7 @@ export class NavBar extends Component{
 			</form>
 			<ul className="nav navbar-nav navbar-left">
 			<li><a href="./">Home</a></li>
+			<li><a href="./aboutme">About me</a></li>
 			<li><a href="./portfolio">Portfolio</a></li>
 			<li><a href="./contact">Contact</a></li>
 			<a name="anchor">Top</a>
