@@ -2,8 +2,13 @@ import React from "react"
 import MapComponent from "../../Components/Map";
 
 const AboutMe = ()=>{
+	const componentStyle={
+		backgroundColor:  "black",
+		width: '250px', 
+		height: '400px'
+	};
 	return(
-		<MapComponent style={{width: '100px', height: '400px'}}/>
+		<MapComponent style={componentStyle}/>
 		);
 }
 
