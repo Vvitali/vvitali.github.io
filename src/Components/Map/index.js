@@ -32,13 +32,25 @@ function initMap() {
 	}
 }
 
-const MapComponent = (props)=>{
-	return <div>
-	<h1>
-	Hello map!
-	</h1>
-	<div id="map"></div>
-
-	</div>
+const AnyReactComponent = ({ text }) =>(<div style={{
+	position: 'relative', color: 'white', background: 'red',
+	height: 40, width: 60, top: -20, left: -30,    
+}}>
+{text}
+</div>) 
+class MapComponent extends React.Component{
+	static defaultProps = {
+		center: { lat: 40.7446790, lng: -73.9485420 },
+		zoom: 11
+	}
+	render(){
+		return (
+			<GoogleMapReact defaultCenter={ this.props.center } defaultZoom={ this.props.zoom }>
+			<AnyReactComponent lat={ 40.7473310 } lng={ -73.8517440 } text={ 'Wheres Waldo?' }>
+			</AnyReactComponent>
+			</GoogleMapReact>
+			);
+	}
+	
 }
 export default MapComponent;

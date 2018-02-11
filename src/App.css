@@ -23,15 +23,15 @@ a{
 }
 
 .Menu a{
-	font-size: 42px;
-	color: black;
+  font-size: 42px;
+  color: black;
 }
 
 .Menu a:hover{
-	color: GrayText;
+  color: GrayText;
 }
-.PhotoArray  {	
-	position: center;
+.PhotoArray  {  
+  position: center;
 }
 
 .links{

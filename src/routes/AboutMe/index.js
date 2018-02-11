@@ -1,8 +1,10 @@
 import React from "react"
-
+import MapComponent from "../../Components/Map";
 
 const AboutMe = ()=>{
 	return(
-		<div><h1>Hello map!</h1></div>
+		<MapComponent style={{width: '100px', height: '400px'}}/>
 		);
 }
+
+export default AboutMe;
