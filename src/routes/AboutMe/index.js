@@ -16,10 +16,7 @@ const AboutMe = ()=>{
 		When i was 8 years old, my mother has bought me my first computer, and I've started to learn digital world!</p>
 		<h3 className="">My journey! <span style={{fontSize: "14px"}}>(hint: {isMobile? "hold your finger couple seconds over any marker":"hover the cursor over any marker"})</span></h3>
 		</div>
-		<MapComponent
-		bootstrapURLKeys={{
-			key: "AIzaSyDyePBmEMRe0sGjQBRvDq8TYEcXkDfp_0I"
-		}}/>
+		<MapComponent/>
 
 		<span><em>1999: In my childhood I had a lot of toys, and electric devices (like cassette player), one day I've found a screwdriver <img className="emoji" src="https://cdn.emojidex.com/emoji/seal/%28flat_head%29screw_driver.png" alt=""/>, and after couple hours my parents found me on the floor surrounded by numbers of details</em></span>
 		<br/>
