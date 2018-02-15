@@ -19,7 +19,9 @@ const AboutMe = ()=>{
 		In 2009 <a href="https://en.wikipedia.org/wiki/Asymmetric_digital_subscriber_line" target="_blank">ADSL</a>-internet-provider has came to my city, and I've got my first unlimited internet connection - and it speeded up my progress a lot! I've learned basics of HTML, CSS, and PHP, I was playing with open-source web and database servers, but in 2011 my family had to move far away. 
 		</p>
 		<h3>High school and University</h3>
-
+		<p>After school graduation, I passed necessary exams, and enrolled to BSTU (Bryansk State Technical University) Information Technologies Department, and have studied Computer Science and Software for 1 year, where I got a lot of friends, and it was fun!
+		Then, my family got greencard and I had to drop my education, and move to The Unites States</p>
+		<em>"to be continued"</em>
 		<h3 className="">My journey! <span style={{fontSize: "14px"}}>(hint: {isMobile? "hold your finger couple seconds over any marker":"hover the cursor over any marker"})</span></h3>
 		</div>
 		<MapComponent/>
@@ -27,7 +29,6 @@ const AboutMe = ()=>{
 		<span><em>1999: In my childhood I had a lot of toys, and electric devices (like cassette player), one day I've found a screwdriver <img className="emoji" src="https://cdn.emojidex.com/emoji/seal/%28flat_head%29screw_driver.png" alt=""/>, and after couple hours my parents found me on the floor surrounded by numbers of details</em></span>
 		<br/>
 		<br/>
-		<em>"to be continued"</em>
 
 		</div>
 		);
