@@ -21,9 +21,14 @@ const AboutMe = ()=>{
 		<h3>High school and University</h3>
 		<p>At my graduate class I had to prepare for certain exams on my own, because I wanted to enroll to the highest ranked <a href="http://www.tu-bryansk.ru/content/obs/hist" target="_blank">university</a> in my state, and I had to get good grades on the final exams, and my school could not give me neccesary level of preparation for my future university.
 		Part of this exams is computer science exam, which has programing part, and in order to prepare for this exam I used to programing in school at history, and social theory classes, I had no laptop, so I installed <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)" target="_blank">Pascal</a> compiler on my small android-smartphone, and just was taping for 2 years at school :D, (also I showed this compiler, and how to start coding to friend of mine, and he succesfully passed and enrolled to my university too, but this credits goes to him, because he spent so much time coding on his smartphone).
+		So, a smartphone is a great thing! :D 
 		</p>
 		<p>After school graduation, I passed necessary exams, and enrolled to BSTU (Bryansk State Technical University) Information Technologies Department, and have studied Computer Science and Software for 1 year, where I got a lot of friends, and it was fun!
 		Then, my family got greencard and I had to drop my education, and move to The Unites States</p>
+		<h3>Portland, Oregon</h3>
+		<p>When I've got to Portland, I had strange feeling.</p>
+		<p>Friends of my family were helping us at that moment, they wanted to take us to a beach in the our first day in the US, and while we were driving through the city, we stopped at one computer shop, and friends introduced me to the owner of this shop (Shops - if To be more precise), and I've got my first job on my first day (and hours) in the US :D
+		</p>
 		<em>"to be continued"</em>
 		<h3 className="">My journey! <span style={{fontSize: "14px"}}>(hint: {isMobile? "hold your finger couple seconds over any marker":"hover the cursor over any marker"})</span></h3>
 		</div>
