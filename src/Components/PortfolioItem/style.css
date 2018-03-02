@@ -4,3 +4,10 @@
  	border: none;
  } 
 
+ .pItem{
+ 	width: 100%;
+ }
+ .pItem img{
+ 	width: 30%;
+ }
+

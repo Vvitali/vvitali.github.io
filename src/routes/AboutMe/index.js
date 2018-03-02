@@ -5,7 +5,7 @@ import "./style.css";
 const AboutMe = ()=>{
 	const isMobile = window.innerWidth <= 500;
 	return(
-		<div className="row text-left" >
+		<div className="row text-left animated" >
 		<div style={ isMobile? { padding: "0px 15px 0px 15px"} : {padding: "0px"}}>
 		<h1 className="bottom">About me</h1>
 		<hr/>
@@ -19,8 +19,8 @@ const AboutMe = ()=>{
 		In 2009 <a href="https://en.wikipedia.org/wiki/Asymmetric_digital_subscriber_line" target="_blank">ADSL</a>-internet-provider has came to my city, and I've got my first unlimited internet connection - and it speeded up my progress a lot! I've learned basics of HTML, CSS, and PHP, I was playing with open-source web and database servers, but in 2011 my family had to move far away. 
 		</p>
 		<h3>High school and University</h3>
-		<p>At my graduate class I had to prepare for certain exams on my own, because I wanted to enroll to the highest ranked <a href="http://www.tu-bryansk.ru/content/obs/hist" target="_blank">university</a> in my state, and I had to get good grades on the final exams, and my school could not give me neccesary level of preparation for my future university.
-		Part of this exams is computer science exam, which has programing part, and in order to prepare for this exam I used to programing in school at history, and social theory classes, I had no laptop, so I installed <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)" target="_blank">Pascal</a> compiler on my small android-smartphone, and just was taping for 2 years at school :D, (also I showed this compiler, and how to start coding to friend of mine, and he succesfully passed and enrolled to my university too, but this credits goes to him, because he spent so much time coding on his smartphone).
+		<p>At my graduate class I had to prepare for certain exams on my own, because I wanted to enroll to the highest ranked <a href="http://www.tu-bryansk.ru/content/obs/hist" target="_blank">university</a> in my region, and I had to get good grades on the final exams, and my school could not give me neccesary level of preparation for my future university.
+		Part of this exams is computer science exam, which has programing part, and in order to prepare for this exam I used to programing in school at history, and social theory classes, I had no laptop, so I installed <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)" target="_blank">Pascal</a> compiler on my small android-smartphone, and was taping for 2 years at school :D, (also I showed this compiler, and how to start coding to friend of mine, and he succesfully passed and enrolled to my university too, but this credits goes to him, because he spent so much time coding on his smartphone).
 		So, a smartphone is a great thing! :D 
 		</p>
 		<p>After school graduation, I passed necessary exams, and enrolled to BSTU (Bryansk State Technical University) Information Technologies Department, and have studied Computer Science and Software for 1 year, where I got a lot of friends, and it was fun!

@@ -3,7 +3,7 @@ import React from 'react';
 const Contact =()=>{
 
 	return(
-		<div className="links">
+		<div className="links animated">
 		<div className="links" id="github">
 		<a href="https://github.com/Vvitali" target="_blank" rel="noopener noreferrer">
 		<img src="./images/github_logo.svg" style={{height: 100}} alt="github"/>

@@ -53,7 +53,6 @@ class App extends Component {
 			</div>
 
 			</main>
-			<Footer link="909a1c" vlink="#cecece"></Footer>
 			</div>	 
 			);
 	}
