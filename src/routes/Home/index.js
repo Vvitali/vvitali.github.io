@@ -10,7 +10,7 @@ class Home extends Component{
 			<hr/>
 			<div className="col-sm-12 col-md-6" style={style}><p className="animated">My name is Vitaliy Vorobyev, and I'm a Full-stack web-developer. <br/>Now, you can see my home-page where you can find my contacts, 
 			some of my projects, and just some interesting things</p></div>
-			<div className="col-sm-12 col-md-6 text-center animated"><img className="shadow" src="/images/ava.jpg" alt="Vitaliy's face"/></div>
+			<div className="col-sm-12 col-md-6 text-center animated"><img className="shadow" src="./images/ava.jpg" alt="Vitaliy's face"/></div>
 			</div> 
 			)
 	};
