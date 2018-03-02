@@ -4,11 +4,13 @@
   "homepage": "https://vvitali.github.io/Personal-web-site/",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "d3": "^4.13.0",
     "d3-geo": "^1.9.1",
     "express": "^4.16.2",
     "google-map-react": "^0.29.0",
+    "instafeed.js": "^1.4.1",
     "jquery": "^3.3.1",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.2",
