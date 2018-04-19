@@ -10,7 +10,7 @@ class Portfolio extends Component{
 			<Project url="https://vvitali.github.io/Secret-Santa/" title="Secret-Santa" imgSrc="./images/schreenshots/thesecret-santa.jpg" descr="Application for exchanging Christmas presents anonymously. Back-end\Full-stack "></Project>
 			<Project url="https://meal-crave.herokuapp.com" title="mealCrave" imgSrc="./images/schreenshots/themealCrave.jpg" descr="Find dishes from local restaurants that have been curated and posted by users. Back-end"></Project>
 			<Project title="The Matrix Hangman" descr="Matrix style!" imgSrc="./images/schreenshots/thematrix-hangman.jpg" url="https://vvitali.github.io/Hangman/"></Project>
-			<Project imgSrc="./images/schreenshots/sns.jpg" title="Stalker network system PDA (orignial name: 'Сталкерская сеть') " descr="Web-site support, and social network windows application for game fan club. Unfortunatly, after several versions, project closed. Years: 2009-2013"></Project>
+			<Project imgSrc="./images/schreenshots/sns.jpg" title="Stalker network system PDA (orignial name: 'Сталкерская сеть') " descr="Web-site support, and social network windows application for game fan club. Unfortunatly, after several versions, project closed. Years: 2009-2013. And just leftovers like this video: https://youtu.be/_LZs06Lu-SM"></Project>
 			<Project title="Future project 2" descr="Great future app #1"></Project>
 
 			</div>		
