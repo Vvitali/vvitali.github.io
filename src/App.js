@@ -38,7 +38,7 @@ class App extends Component {
 			<div className="row">
 			<div className="col-md-1"></div>
 			<div className="col-sm-12 col-md-10">
-			<Router basename="/Personal-web-site">
+			<Router>
 			<Switch>
 			<Route exact path="/" component={this.Home}/>
 			<Route path="/contact" component={this.Contact}/>

@@ -11,7 +11,7 @@ export class NavBar extends Component{
 			<span name="icon-bar"></span>
 			<span className="icon-bar"></span>
 			</button>
-			<a className="navbar-brand center" href="/Personal-web-site">Vorobyev Vitaliy</a>
+			<a className="navbar-brand center" href="/">Vorobyev Vitaliy</a>
 			</div>
 
 			<div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
