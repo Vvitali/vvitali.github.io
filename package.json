@@ -1,7 +1,7 @@
 {
   "name": "vitaliyswebsite",
   "version": "0.1.0",
-  "homepage": "https://vvitali.github.io/Personal-web-site/",
+  "homepage": "https://vvitali.github.io/",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
