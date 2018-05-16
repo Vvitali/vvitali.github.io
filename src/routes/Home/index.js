@@ -6,7 +6,7 @@ class Home extends Component{
 		let style= isMobile? { padding: "0px 15px 0px 15px"} : {padding: "0px"};
 		return(
 			<div className="BioStyle row text-left">
-			<h1 className="bottom" style={style}>Hello!</h1>
+			<h2 className="bottom" style={style}>Hello!</h2>
 			<hr/>
 			<div className="col-sm-12 col-md-6 animated" style={style}><p >My name is Vitaliy Vorobyev, and I'm a Full-stack web-developer. <br/>Now, you can see my home-page where you can find my contacts, 
 			some of my projects, and just some interesting things</p>
@@ -18,8 +18,16 @@ class Home extends Component{
 			<li>MySQL, MongoDB</li>			
 			<li>AWS, S3, EC2</li>
 			</ul>
+			<h2>Auxilary stack:</h2>	
+			<ul>
+			<li>Java</li>
+			<li>C (C11/C99)</li>
+			<li>Assembler (just for fun)</li> 
+			</ul>
 			</div>
+
 			<div className="col-sm-12 col-md-6 text-center animated"><img className="shadow" src="./images/ava.jpg" alt="Vitaliy's face"/></div>
+
 
 			</div> 
 			)
