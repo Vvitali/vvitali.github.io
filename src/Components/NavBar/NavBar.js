@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 export class NavBar extends Component{
 	render(){
 		return(			
@@ -21,7 +22,7 @@ export class NavBar extends Component{
 
 			</form>
 			<ul className="nav navbar-nav navbar-left">
-			<li><a href="./">Home</a></li>
+			<li><Link to="./">Home</Link></li>
 			<li><a href="./aboutme">About me</a></li>
 			<li><a href="./portfolio">Portfolio</a></li>
 			<li><a href="./contact">Contact</a></li>
