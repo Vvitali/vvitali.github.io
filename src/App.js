@@ -30,31 +30,31 @@ class App extends Component {
 
 	render() {
 		return (
-			<div className="App">
-			<NavBar></NavBar>
-			<main>
-			<div className="container">
-			<div className="row"></div>
-			<div className="row">
-			<div className="col-md-1"></div>
-			<div className="col-sm-12 col-md-10">
-			<Router>
-			<Switch>
-			<Route exact path="/" component={this.Home}/>
-			<Route path="/contact" component={this.Contact}/>
-			<Route path="/portfolio" component={this.Portfolio}/>
-			<Route path="/aboutme" component={this.AboutMe}/>
+		<div className="App">
+		<NavBar></NavBar>
+		<main>
+		<div className="container">
+		<div className="row"></div>
+		<div className="row">
+		<div className="col-md-1"></div>
+		<div className="col-sm-12 col-md-10">
+		<Router basename='vvitali.tk'>
+		<Switch>
+		<Route exact path="/" component={this.Home}/>
+		<Route path="/contact" component={this.Contact}/>
+		<Route path="/portfolio" component={this.Portfolio}/>
+		<Route path="/aboutme" component={this.AboutMe}/>
 
-			</Switch>
-			</Router>
-			</div>
-			<div className="col-md-1"></div>
-			</div>
-			</div>
+		</Switch>
+		</Router>
+		</div>
+		<div className="col-md-1"></div>
+		</div>
+		</div>
 
-			</main>
-			</div>	 
-			);
+		</main>
+		</div>	 
+		);
 	}
 }
 

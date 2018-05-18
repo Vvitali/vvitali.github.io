@@ -1,7 +1,7 @@
 {
   "name": "vitaliyswebsite",
   "version": "0.1.0",
-  "homepage": "https://vvitali.github.io/",
+  "homepage": "vvitali.tk",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
@@ -14,6 +14,7 @@
     "jquery": "^3.3.1",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.2",
+    "nodemailer": "^4.6.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-loadable": "^5.3.1",

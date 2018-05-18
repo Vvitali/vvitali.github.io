@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./style.css"
+import "./style.css";
 class Home extends Component{
 	render(){
 		const isMobile = window.innerWidth <= 500;
