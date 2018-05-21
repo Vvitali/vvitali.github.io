@@ -5,6 +5,12 @@ class Portfolio extends Component{
 	render(){
 		return(
 			<div className="project-list row">
+
+
+			<Project url="#" title="Stalker Network System" descr="Social network project highly related with game-community. New itteration of old concept (2018) Back-end\Full-stack, in process"></Project>
+
+			<Project url="#" title="DNA Explorer" descr="DNA explorer - app for observing decrypted DNA-chains in digital format, app shows information about single nucleotide polymorphisms, and provide a brief describtion - it may helps to determine if you have certain genetic predisposition to diseases, and show hidden information encoded in your DNA (your ancestries, phenotypes, predisposition to sport). Back-end\Full-stack, in process"></Project>
+			
 			<Project url="https://www.nwsterlinghomes.com" title="NW Sterling Homes" imgSrc="./images/schreenshots/nwsterlinghomes.jpg" descr="North West Sterling Homes is a whole home building and remodeling company with more than 25 years of experience based in Portland, Oregon. Web-site has been created from scratch"></Project>
 			<Project url="https://thecryptoshop.herokuapp.com" title="TheCryptoShop" imgSrc="./images/schreenshots/thecryptoshop.jpg" descr="E-commerce blockchain project allows user to buy eBay goods using Bitcoin  Back-end\Full-stack (Currently: Beta)"></Project>
 			<Project url="https://vvitali.github.io/Secret-Santa/" title="Secret-Santa" imgSrc="./images/schreenshots/thesecret-santa.jpg" descr="Application for exchanging Christmas presents anonymously. Back-end\Full-stack "></Project>
