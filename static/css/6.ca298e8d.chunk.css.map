@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAC,KACC,wBAAyB,CACzB,UAAY,CACZ,WACD,CAEA,OACC,UACD,CACA,WACC,SACD","file":"6.ca298e8d.chunk.css","sourcesContent":[" .btn{\n \tbackground-color: #D3D3D3;\n \tcolor: black;\n \tborder: none;\n } \n\n .pItem{\n \twidth: 100%;\n }\n .pItem img{\n \twidth: 30%;\n }\n\n"]}
